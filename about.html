@@ -1,36 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - My Website</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - MyBrand</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header>
+    <div class="heading">
+      <a href="index.html" class="logo">MyBrand</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-    <header>
-        <div class="heading">
-            <a href="index.html" class="logo">MyBrand</a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html" class="active">About</a>
-                <a href="services.html">Services</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+  <!-- Hero -->
+  <section class="about-hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>We design digital experiences that people love.</h1>
+        <p class="lead">MyBrand partners with product teams to create polished, accessible, and performant web applications — from discovery to delivery.</p>
+        <a href="services.html" class="btn primary">View Our Services</a>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <!-- Decorative shapes / illustration placeholder -->
+        <div class="card-illustration">
+          <div class="illus-header"></div>
+          <div class="illus-grid">
+            <div class="illus-box"></div>
+            <div class="illus-box"></div>
+            <div class="illus-box"></div>
+            <div class="illus-box"></div>
+          </div>
         </div>
-    </header>
+      </div>
+    </div>
+  </section>
 
-    <section class="about-page">
-        <h1>About Me</h1>
-        <p>
-            I am a passionate developer building responsive and modern websites.
-            I specialize in front-end development and UI/UX design.
-        </p>
-    </section>
+  <!-- About Intro -->
+  <section class="intro container">
+    <div class="intro-text">
+      <h2>About MyBrand</h2>
+      <p>Founded in 2022, MyBrand is a boutique digital studio focused on building products and user interfaces that solve real problems. We combine strategy, design, and engineering to ship delightful experiences — quickly and sustainably.</p>
+    </div>
 
-    <footer>
-        <p>© 2025 MyBrand. All Rights Reserved.</p>
-    </footer>
+    <div class="core-values">
+      <div class="value">
+        <i class="fa-solid fa-lightbulb"></i>
+        <h3>Design-led</h3>
+        <p>We prioritize clarity and empathy in every interface we craft.</p>
+      </div>
+      <div class="value">
+        <i class="fa-solid fa-rocket"></i>
+        <h3>Results-driven</h3>
+        <p>Fast iteration, customer feedback, and measurable outcomes guide us.</p>
+      </div>
+      <div class="value">
+        <i class="fa-solid fa-shield-halved"></i>
+        <h3>Reliable</h3>
+        <p>Robust engineering and quality processes ensure dependable launches.</p>
+      </div>
+    </div>
+  </section>
 
+  <!-- Stats -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat">
+        <h3>120+</h3>
+        <p>Projects delivered</p>
+      </div>
+      <div class="stat">
+        <h3>40%</h3>
+        <p>Average conversion uplift</p>
+      </div>
+      <div class="stat">
+        <h3>98%</h3>
+        <p>Client satisfaction</p>
+      </div>
+      <div class="stat">
+        <h3>20</h3>
+        <p>Team members</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission / Vision -->
+  <section class="mission container split">
+    <div class="split-item">
+      <h3>Our Mission</h3>
+      <p>To empower teams with simple, elegant products that scale — marrying beautiful design with strong engineering.</p>
+      <ul class="checklist">
+        <li><i class="fa-solid fa-check"></i> User-first research</li>
+        <li><i class="fa-solid fa-check"></i> Accessible interfaces</li>
+        <li><i class="fa-solid fa-check"></i> Clean, maintainable code</li>
+      </ul>
+    </div>
+    <div class="split-item">
+      <h3>Our Vision</h3>
+      <p>To become the trusted partner for growing companies seeking thoughtful digital transformation and continual product evolution.</p>
+      <blockquote>“Design is the silent ambassador of your brand.” — Our approach</blockquote>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="team container">
+    <h2>Meet the Team</h2>
+    <p class="muted">Small team, big impact — multidisciplinary designers and engineers.</p>
+
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="avatar">VA</div>
+        <h4>Varun A</h4>
+        <p class="role">Founder &amp; Lead Engineer</p>
+      </div>
+
+      <div class="team-card">
+        <div class="avatar">AR</div>
+        <h4>Aria R</h4>
+        <p class="role">Product Designer</p>
+      </div>
+
+      <div class="team-card">
+        <div class="avatar">SK</div>
+        <h4>Sana K</h4>
+        <p class="role">Frontend Engineer</p>
+      </div>
+
+      <div class="team-card">
+        <div class="avatar">ML</div>
+        <h4>M. Lee</h4>
+        <p class="role">Growth &amp; Strategy</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <section class="timeline container">
+    <h2>Company Journey</h2>
+    <div class="timeline-grid">
+      <div class="time-item">
+        <time>2022</time>
+        <h4>Founded</h4>
+        <p>Started as a two-person studio focused on product design.</p>
+      </div>
+      <div class="time-item">
+        <time>2023</time>
+        <h4>First 50 Projects</h4>
+        <p>Expanded offerings to include full-stack delivery and CMS integrations.</p>
+      </div>
+      <div class="time-item">
+        <time>2024</time>
+        <h4>Scaled Team</h4>
+        <p>Built a remote-friendly team and improved our delivery pipelines.</p>
+      </div>
+      <div class="time-item">
+        <time>2025</time>
+        <h4>Continuous Growth</h4>
+        <p>Focusing on platform products and long-term partnerships.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container cta-inner">
+      <div>
+        <h2>Ready to build something great?</h2>
+        <p class="muted">Tell us about your project and we'll propose a plan that matches your goals and budget.</p>
+      </div>
+      <div>
+        <a href="contact.html" class="btn outline">Start a Conversation</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 MyBrand. All Rights Reserved.</p>
+      <div class="socials">
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" aria-label="Dribbble"><i class="fa-brands fa-dribbble"></i></a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
